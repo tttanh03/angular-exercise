@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angulark08';
-}
+  foods:Array<string>=['Food 1','Food 2'];
+
+
+    }
+  
+

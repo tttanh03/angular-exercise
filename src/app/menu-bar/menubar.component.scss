@@ -1,0 +1,44 @@
+.menu-bar{
+    width: 375px;
+    height: 50px;
+    display: flex;
+    background-image: url('../../assets/img/tab-bar.png');
+    background-size:125%;
+    background-position: center;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.bean {
+    width: 28px;
+    height: 27px;
+    background-image: url('../../assets/img/coffee-nut-color.png');
+    background-position: center;
+    background-size: cover;
+}
+// .bean:active {
+    
+//     background-image: url('../../assets/img/coffee nut color.png');
+        
+// }
+.order {
+    width: 28px;
+    height: 28px;
+    background-image: url('../../assets/img/order.png');
+    background-position: center;
+    background-size: cover;
+}
+.order:active {
+    background-image: url('../../assets/img/order-color.png');
+}
+.user {
+    width:22px;
+    height: 27px;
+    background-image: url('../../assets/img/user.png');
+    background-position: center;
+    background-size: 99%;
+    background-repeat: no-repeat;
+}
+.user:active {
+        background-image: url('../../assets/img/user-color.png');
+}

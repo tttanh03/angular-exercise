@@ -1,0 +1,16 @@
+.app {
+    width: 375px;
+    height: 667px;
+    display:flex;
+    flex-direction: column;
+    position: relative;
+
+}
+.container {
+    display:flex;
+    flex-direction: column;
+}
+.menubar {
+    position: fixed;
+    bottom:0px;
+}

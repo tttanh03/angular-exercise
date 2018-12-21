@@ -4,6 +4,7 @@ import {Component} from '@angular/core'
     selector: 'app-header',
     template: `<div class="header">
     <p class="header-name">MENU</p>
+    <div class="noti"></div>
 </div>`,
     styleUrls: ['header.component.scss']
 })    

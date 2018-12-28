@@ -1,4 +1,4 @@
-import {Component} from '@angular/core'
+import {Component, OnDestroy} from '@angular/core'
 
 @Component ({
     selector: 'app-food',
@@ -8,6 +8,7 @@ import {Component} from '@angular/core'
     <div class="caption">
         <h2>CaFe Mocha</h2>
         <h5>65.000 vnd</h5>
+        <h4>{{status | status}} </h4>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
         <button class="details">Details</button>
     </div>
@@ -16,8 +17,12 @@ import {Component} from '@angular/core'
     styleUrls: ['food.component.scss']
 })    
 
-export class FoodComponent{
+export class FoodComponent implements OnDestroy{
     //showContent: number =2;
    foodName:string;
+   status:number = 1;
     //food: Array<string> = ['Apple','Banana','Orange'];
+    ngOnDestroy (){
+        console.log ('Component has been destroyed')
+    }
 }
